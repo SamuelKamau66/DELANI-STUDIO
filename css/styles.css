@@ -17,3 +17,8 @@
 .whatwedo {
   text-align: center;
 }
+.contactus {
+  background-image: url(../image/contact.jpg);
+  background-size: cover;
+  background-position: center;
+}

@@ -6,6 +6,8 @@
 }
 .services {
   background-image: url(../image/services.jpg);
+  color: white;
+  text-align: center;
 
 }
 .aboutus {

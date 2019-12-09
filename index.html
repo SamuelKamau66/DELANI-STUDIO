@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script
@@ -10,11 +13,14 @@
   <title>Delani Studio</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container" class="img-responsive" id="welcome">
+  <div class="header">
       <img src="image/logo.png"><br><br>
+
   <h1>WELCOME</h1><br><br>
   <h2>TO DELANI STUDIO</h2><br>
   <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+    <img src="image/mouse_click.png"><br><br>
   </div><br><br><br>
   <div class="aboutus">
   <h3>ABOUT US</h3>
@@ -33,10 +39,31 @@
   </div><br>
   <div class="whatwedo">
   <h5>WHAT WE DO</h5>
-    <img src="image/design.png"> <img src="image/dev.png"> <img src="image/prod.png">
+  <div class="table">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="onClick1">
+          <div id="click1">
+    <img src="image/design.png">
+    <div class="caption">
+      <p>DESIGN</p>
+    </div>
+  </div>
+  <div id="design">
+    <h6><strong>DESIGN</strong></h6>
+    <P>We have a team of highly skilled and experienced web designers that will create user friendly designs
+      and yet meet all your requirements </P>
+  </div>    
+     <img src="image/dev.png"> <img src="image/prod.png">
+    <p>DESIGN</p>
+  </div><br>
+  <div class="portforlio">
+  <h4>PORTFOLIO</h4>
+  <img src="image/work1.jpg"><img src="image/work2.jpg"><img src="image/work3.jpg"><img src="image/work4.jpg">
+  <img src="image/work5.jpg"><img src="image/work6.jpg"><img src="image/work7.jpg"><img src="image/work8.jpg">
   </div>
   <div class="contactus">
-  <h4>CONTACT US</h4>
+  <h5>CONTACT US</h5>
   <form class="input">
     <input id="name" type="text" placeholder="Name...">
     <input id="email" type="text" placeholder="Email..."><br><br>
@@ -46,5 +73,6 @@
 <footer>
   DELANI STUDIO 2019
 </footer>
+</div>
 </body>
 </html>

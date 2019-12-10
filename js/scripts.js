@@ -28,79 +28,79 @@ $(document).ready(function() {
   });
 
 $(document).ready(function() {
-  $(".port1").hover(function(){
-  $(".port1").mouseenter(function(){
+  $(".pt1").hover(function(){
+  $(".pt1").mouseenter(function(){
   $("#button").show();
   });
 
-  $(".port1").mouseleave(function(){
+  $(".pt1").mouseleave(function(){
   $("#button").hide();
   });
   });
-  $(".port1").hover(function(){
-   $(".port1").mouseenter(function(){
+  $(".pt1").hover(function(){
+   $(".pt1").mouseenter(function(){
     $("#button").show();
   });
-    $(".port1").mouseleave(function(){
+    $(".pt1").mouseleave(function(){
     $("#button").hide();
   });
   });
-  $(".port2").hover(function(){
-  $(".port2").mouseenter(function(){
+  $(".pt2").hover(function(){
+  $(".pt2").mouseenter(function(){
   $("#button2").show();
   });
-  $(".port2").mouseleave(function(){
+  $(".pt2").mouseleave(function(){
   $("#button2").hide();
    });
   });
-  $(".port3").hover(function(){
-   $(".port3").mouseenter(function(){
+  $(".pt3").hover(function(){
+   $(".pt3").mouseenter(function(){
      $("#button3").show();
      });
-    $(".port3").mouseleave(function(){
+    $(".pt3").mouseleave(function(){
     $("#button3").hide();
   });
   });
-  $(".port4").hover(function(){
-  $(".port4").mouseenter(function(){
+  $(".pt4").hover(function(){
+  $(".pt4").mouseenter(function(){
     $("#button4").show();
     });
-    $(".port4").mouseleave(function(){
+    $(".pt4").mouseleave(function(){
     $("#button4").hide();
     });
     });
-  $(".port5").hover(function(){
-    $(".port5").mouseenter(function(){
+  $(".pt5").hover(function(){
+    $(".pt5").mouseenter(function(){
     $("#button5").show();
     });
-    $(".port5").mouseleave(function(){
+    $(".pt5").mouseleave(function(){
     $("#button5").hide();
           });
 
       });
-      $(".port6").hover(function(){
-        $(".port6").mouseenter(function(){
+      $(".pt6").hover(function(){
+        $(".pt6").mouseenter(function(){
         $("#button6").show();
         });
-        $(".port6").mouseleave(function(){
+        $(".pt6").mouseleave(function(){
           $("#button6").hide();
           });
 
       });
-      $(".port7").hover(function(){
-        $(".port7").mouseenter(function(){
+      $(".pt7").hover(function(){
+        $(".pt7").mouseenter(function(){
         $("#button7").show();
         });
-        $(".port7").mouseleave(function(){
+        $(".pt7").mouseleave(function(){
         $("#button7").hide();
           });
 
       });
-      $(".port8").hover(function(){
-        $(".port8").mouseenter(function(){
+      $(".pt8").hover(function(){
+        $(".pt8").mouseenter(function(){
         $("#button8").show();
         });
-        $(".port8").mouseleave(function(){
+        $(".pt8").mouseleave(function(){
           $("#button8").hide();
           });
 

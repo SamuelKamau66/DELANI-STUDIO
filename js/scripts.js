@@ -107,10 +107,10 @@ $(document).ready(function() {
       });
     });
 $(document).ready(function() {
-  $("#submit").click(function(){
+  $("#myBtn").click(function(){
   var name=$("#name").val();
   var email=$("#email").val();
-  var textarea=$("#styled").val();
+  var textarea=$("#message").val();
 
   if ($('#name').val() == '') {
     alert('please fill the form');
@@ -123,7 +123,7 @@ $(document).ready(function() {
   }
   else{
 
-alert("Dear" +name +";"+" we have received your message.Thank you for reaching out to us.");
+alert("Dear" + name +";"+" we have received your message.Thank you for reaching out to us.");
   }
 });
 

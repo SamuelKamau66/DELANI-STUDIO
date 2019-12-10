@@ -1,17 +1,29 @@
-.container {
-  text-align: center;
+.header {
+  padding: 50px;
+  background-color: white;
   background-image: url(../image/h1.jpg);
-  background-size: cover;
-  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+}
+
+.text {
+  padding-top: 14%;
+  font-size: 12px
 }
 .services {
   background-image: url(../image/services.jpg);
+  background-size: cover;
+  background-position: center;
   color: white;
   text-align: center;
 
 }
 .aboutus {
+  padding: 30px;
   text-align: center;
+  font-size: 14px;
 }
 
 .whatwedo {
@@ -19,6 +31,30 @@
 }
 .contactus {
   background-image: url(../image/contact.jpg);
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
+  text-align: center;
+  color: white;
+}
+
+.input {
+  opacity: 50%;
+  color: white;
+}
+.table {
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#portforlio {
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  padding-bottom: 40px;
+}
+#click1 {
+  cursor: pointer;
+}
+#design {
+  display: none;
 }

@@ -55,6 +55,132 @@
 #click1 {
   cursor: pointer;
 }
-#design {
+#click2 {
+  cursor: pointer;
+}
+#click3 {
+  cursor: pointer;
+}
+.desc, .desc2, .desc3 {
   display: none;
 }
+.portforlio img{
+  width: 300px;
+}
+.portfolio{
+    height:650px;
+    margin-top:50px;
+}
+img {
+  padding-left: 20px;
+}
+.port1{
+    position: relative;
+    text-align: center;
+
+
+}
+.pt1:hover{
+
+    background-color: black;
+    opacity:0.7
+}
+.pt2:hover{
+
+    background-color: black;
+    opacity:0.7
+}
+.pt3:hover{
+    background-color: black;
+    opacity:0.7
+}
+.pt4:hover{
+    background-color: black;
+    opacity:0.7
+}
+.pt5:hover{
+    background-color: black;
+    opacity:0.7
+}
+.pt6:hover{
+    background-color: black;
+    opacity:0.7
+}
+.pt7:hover{
+    background-color: black;
+    opacity:0.7
+}
+.pt8:hover{
+    background-color: black;
+    opacity:0.7
+}
+.btn-outline-warning{
+    position: absolute;
+    border:2px;
+    left:70px;
+    bottom: 10px;
+    width: 150px;
+    height:200px;
+    width: 200px;
+}
+
+#button{
+    display:none;
+  font-size:20px;
+  background-color: transparent;
+  border-color: whitesmoke;
+  color:white;
+ }
+ #button2{
+     display:none;
+     font-size:20px;
+     background-color:  transparent;
+     border-color:whitesmoke;
+     color:white;
+     font-size:54px;
+ }
+ #button3{
+     display:none;
+     font-size:20px;
+     background-color: transparent;
+      border-color:whitesmoke;
+      color:white;
+ }
+ #button4{
+     display:none;
+     font-size:20px;
+     background-color: transparent;
+     border-color:whitesmoke;
+     color:white;
+ }
+ #button5{
+     display:none;
+     font-size:20px;
+     background-color: transparent;
+      border-color:whitesmoke;
+      color:white;
+ }
+ #button6{
+     display:none;
+     font-size:20px;
+     background-color: transparent;
+      border-color:whitesmoke;
+      color:white;
+ }
+ #button7{
+     display:none;
+     font-size:20px;
+     background-color: transparent;
+      border-color:whitesmoke;
+      color:white;
+ }
+ #button8{
+     display:none;
+     font-size:20px;
+     background-color: transparent;
+     border-color:whitesmoke;
+     color:white;
+     font-size:30px;
+     text-transform: uppercase;
+     font: weight 900;
+ }
